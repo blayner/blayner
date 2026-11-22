@@ -10,7 +10,7 @@ Desenvolvedor **back-end** com foco em **.NET** e **Node.js/TypeScript**. Gosto 
 | [**EventIngestor**](https://github.com/blayner/EventIngestor) | Serviço de ingestão de eventos de alto throughput | gRPC + REST, `System.IO.Pipelines`, `Channel<T>` com backpressure, pooling, BenchmarkDotNet e k6 | .NET 10 · Prometheus · Grafana |
 | [**FeatureFlare**](https://github.com/blayner/FeatureFlare) | Feature flags e experimentos A/B | Avaliação local nos SDKs, streaming via SSE, bucketing com MurmurHash3 idêntico em .NET e TS | .NET 10 · TypeScript · PostgreSQL |
 | [**NexusCommerce**](https://github.com/blayner/NexusCommerce) | E-commerce em monólito modular | DDD + arquitetura hexagonal, máquina de estados de pedido, saga de checkout, BullMQ, cache Redis, métricas Prometheus | NestJS 12 · Prisma · PostgreSQL · Redis |
-| [**CollabSync**](https://github.com/blayner/CollabSync) | Backend de colaboração em tempo real | CRDTs com Yjs, presença, escala horizontal via Redis pub/sub sem sticky sessions, log de updates + snapshots | Node.js · WebSocket · PostgreSQL · Redis |
+| [**CollabSync**](https://github.com/blayner/CollabSync) | Backend de colaboração em tempo real | CRDTs com Yjs, presença e cursores remotos (CodeMirror), escala horizontal via Redis pub/sub sem sticky sessions, log de updates + snapshots, testes de navegador com Playwright | Node.js · WebSocket · PostgreSQL · Redis |
 | [**ts-outcome**](https://github.com/blayner/ts-outcome) | Biblioteca open source de `Result`/`Option` | Tipagem avançada, erros acumulados no tipo, do-notation com generators, 100% de cobertura, < 2 kB gzip | TypeScript |
 
 ## 🛠️ Stack
